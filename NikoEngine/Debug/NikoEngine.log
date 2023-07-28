@@ -1,0 +1,9 @@
+﻿  nikoMath.cpp
+C:\Users\willk\source\repos\NikoEngine\nikoMath.cpp(47,66): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\willk\source\repos\NikoEngine\nikoMath.cpp(53,4): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\willk\source\repos\NikoEngine\nikoMath.cpp(58,45): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\willk\source\repos\NikoEngine\nikoMath.cpp(67,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\willk\source\repos\NikoEngine\nikoMath.cpp(70,17): warning C4018: '<': signed/unsigned mismatch
+C:\Users\willk\source\repos\NikoEngine\nikoMath.cpp(101,12): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\willk\source\repos\NikoEngine\nikoMath.cpp(106,36): warning C4305: '+=': truncation from 'double' to 'float'
+  NikoEngine.vcxproj -> C:\Users\willk\source\repos\NikoEngine\Debug\NikoEngine.exe

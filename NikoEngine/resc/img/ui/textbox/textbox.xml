@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ezspritebank sheets="1" animations="3">
+	<sheet index="0" width="512" height="128" source="textbox-0.png"/>
+	<animation name="continue_button" frames="5" ms="250">
+		<frame index="0" sheet="0" x="58" y="113" w="14" h="14" ox="0" oy="0" ms="50" rot="0"/>
+		<frame index="1" sheet="0" x="78" y="93" w="18" h="18" ox="-3" oy="-3" ms="50" rot="0"/>
+		<frame index="2" sheet="0" x="58" y="93" w="20" h="20" ox="-9" oy="-9" ms="50" rot="0"/>
+		<frame index="3" sheet="0" x="32" y="93" w="26" h="26" ox="-6" oy="-6" ms="50" rot="0"/>
+		<frame index="4" sheet="0" x="0" y="93" w="32" h="32" ox="-7" oy="-7" ms="50" rot="0"/>
+	</animation>
+	<animation name="namebox" frames="1" ms="1">
+		<frame index="0" sheet="0" x="0" y="75" w="142" h="18" ox="0" oy="0" ms="1" rot="0"/>
+	</animation>
+	<animation name="textbox" frames="1" ms="1">
+		<frame index="0" sheet="0" x="0" y="0" w="452" h="75" ox="0" oy="0" ms="1" rot="0"/>
+	</animation>
+</ezspritebank>

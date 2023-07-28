@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gametext>
+	<dialogue id="1" nextid="6374458914623332462" nextidtype="dialogue">
+		<line tbtype="line" name="Shoko" imgpath="resc/graphics/portraits/npc/shoko_welcome.png" text="Hey now; this is just a test converstion!&lt;RETURN 3&gt;Don't go getting any&lt;RGB 255, 20, 20&gt; funny ideas&lt;RGB/&gt;, okay?" blinkpath="" blinkx="" blinky="" vacode=""/>
+		<line tbtype="line" name="Shoko" imgpath="resc/graphics/portraits/npc/shoko_welcome.png" text="I'm going to get into character and your goal&lt;RETURN 3&gt;is to arouse me." blinkpath="" blinkx="" blinky="" vacode=""/>
+		<line tbtype="line" name="Shoko" imgpath="resc/graphics/portraits/npc/shoko_welcome.png" text="Or fail, your choice, bub." blinkpath="" blinkx="" blinky="" vacode=""/>
+		<line tbtype="line" name="" imgpath="" text="&gt;You're unsure what shoko is&lt;RETURN 3&gt;talking about but it's probably best just&lt;RETURN 3&gt;to go with the flow of things." blinkpath="" blinkx="" blinky="" vacode=""/>
+		<line tbtype="line" name="Shoko" imgpath="resc/graphics/portraits/npc/shoko_welcome.png" text="First question." blinkpath="" blinkx="" blinky="" vacode=""/>
+	</dialogue>
+	<dialogue id="6374458914623332462" nextid="14970107797813556960" nextidtype="branch">
+		<line tbtype="line" name="Shoko" imgpath="resc/graphics/portraits/npc/shoko_welcome.png" text="What color are my eyes?" blinkpath="" blinkx="" blinky="" vacode=""/>
+	</dialogue>
+	<branch id="14970107797813556960">
+		<question text="Beautiful" nextid="9504550764468111129" nextidtype="dialogue"/>
+		<question text="Blue" nextid="12656878592975898385" nextidtype="dialogue"/>
+		<question text="I don't know" nextid="14202242232267047993" nextidtype="dialogue"/>
+	</branch>
+	<dialogue id="9504550764468111129" nextid="" nextidtype="">
+		<line tbtype="line" name="Shoko" imgpath="resc/graphics/portraits/npc/shoko_welcome.png" text="ding, ding, ding!!!" blinkpath="" blinkx="" blinky="" vacode=""/>
+	</dialogue>
+	<dialogue id="12656878592975898385" nextid="6374458914623332462" nextidtype="dialogue">
+		<line tbtype="line" name="" imgpath="" text="&gt;Maybe I shouldn't say that..." blinkpath="" blinkx="" blinky="" vacode=""/>
+	</dialogue>
+	<dialogue id="14202242232267047993" nextid="" nextidtype="">
+		<line tbtype="line" name="Shoko" imgpath="resc/graphics/portraits/npc/shoko_welcome.png" text=". . . . . ." blinkpath="" blinkx="" blinky="" vacode=""/>
+		<line tbtype="line" name="" imgpath="" text=". . . . . ." blinkpath="" blinkx="" blinky="" vacode=""/>
+		<line tbtype="line" name="Shoko" imgpath="resc/graphics/portraits/npc/shoko_welcome.png" text=". . . . . . . . . . . . .&lt;RETURN 3&gt;. . . . . . . . . . . . .&lt;RETURN 3&gt;. . . . . . . . . . . . .&lt;RETURN 3&gt;" blinkpath="" blinkx="" blinky="" vacode=""/>
+		<line tbtype="line" name="Shoko" imgpath="resc/graphics/portraits/npc/shoko_welcome.png" text="Dryer than a desert, my friend." blinkpath="" blinkx="" blinky="" vacode=""/>
+	</dialogue>
+</gametext>
+
